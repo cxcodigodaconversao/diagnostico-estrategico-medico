@@ -301,7 +301,7 @@
   <div class="slide on" id="s-cover" data-ph="diag">
     <div class="cvbg"></div>
     <div class="inner">
-      <div class="badge">Rise Conversão · Processo Estratégico Confidencial</div>
+      <div class="badge">Rise Conversão · Processo Estratégico</div>
       <div class="cv-title">Diagnóstico<br><span>Estratégico</span><br>de Expansão</div>
       <div class="cv-sub">Clínica de Estética Médica · Bragança Paulista, SP</div>
       <button class="btn-gold" onclick="go(1)">Iniciar Diagnóstico &nbsp;→</button>
@@ -833,12 +833,14 @@
       <div class="scgrid">
         <div class="sccol inc">
           <h4>✓ &nbsp;Inclui</h4>
+          <div class="sci"><span class="sico">✓</span><span>Diagnóstico do momento atual — reunião inicial de 2 horas</span></div>
           <div class="sci"><span class="sico">✓</span><span>Reunião semanal de cada setor com especialista dedicado</span></div>
           <div class="sci"><span class="sico">✓</span><span>Grupo de WhatsApp por área com suporte e feedback contínuo</span></div>
           <div class="sci"><span class="sico">✓</span><span>Estruturação de cada área com metas e métricas definidas</span></div>
           <div class="sci"><span class="sico">✓</span><span>Cobrança de resultado dos colaboradores — sem resultado, substituição</span></div>
-          <div class="sci"><span class="sico">✓</span><span>Reunião mensal de 30 min via Zoom com apresentação de métricas da clínica</span></div>
+          <div class="sci"><span class="sico">✓</span><span>Reunião mensal de 1 hora via Zoom com apresentação de métricas da clínica</span></div>
           <div class="sci"><span class="sico">✓</span><span>Direcionamento do perfil ideal de colaborador para contratação</span></div>
+          <div class="sci"><span class="sico">✓</span><span>Dashboard completo com panorama em tempo real de cada área</span></div>
         </div>
         <div class="sccol exc">
           <h4>✗ &nbsp;Não inclui</h4>
@@ -863,7 +865,7 @@
       <div style="font-size:15px; color:var(--muted); line-height:1.85; max-width:480px; margin:0 auto;">
         A pergunta é: <strong style="color:var(--white)">quanto está custando</strong> cada mês sem estrutura?<br><br>
         Sem funil. Sem time. Sem métricas. Sem previsibilidade.<br><br>
-        O que você vai ver agora é o investimento para <em style="color:var(--gold)">parar de perder</em> e começar a construir.
+
       </div>
     </div>
   </div>
@@ -917,13 +919,13 @@
           <div class="spec-col">
             <div class="pname">Parcelado Especial</div>
             <div class="ppre">10× sem juros de</div>
-            <div class="pbig" style="font-size:32px;">R$ 15.000<span> / mês</span></div>
-            <div style="margin-top:6px; font-size:10px; color:var(--muted);">Total: R$ 150.000</div>
+            <div class="pbig" style="font-size:32px;">R$ 18.000<span> / mês</span></div>
+            <div style="margin-top:6px; font-size:10px; color:var(--muted);">Total: R$ 180.000</div>
           </div>
           <div class="spec-col">
             <div class="pname">À Vista Especial</div>
             <div class="ppre">Pagamento único</div>
-            <div class="pbig" style="font-size:32px;">R$ 130.000</div>
+            <div class="pbig" style="font-size:32px;">R$ 150.000</div>
             <div style="margin-top:6px; font-size:10px; color:var(--gold);">Melhor custo-benefício</div>
           </div>
         </div>
@@ -1230,7 +1232,7 @@ function renderResults() {
   radar = new Chart(ctx, {
     type:'radar',
     data:{
-      labels:['Posiciona-\nmento','Funil','Captação\ne Tráfego','Time\nComercial','Métricas','Recorrência'],
+      labels:['Posicionamento','Funil','Captação e Tráfego','Time Comercial','Métricas','Recorrência'],
       datasets:[
         { label:'Resultado', data:avgs, borderColor:'#d2bc8f', backgroundColor:'rgba(210,188,143,0.15)', borderWidth:2.5, pointBackgroundColor:'#d2bc8f', pointBorderColor:'#070f1a', pointBorderWidth:2, pointRadius:4 },
         { label:'Referência (8)', data:Array(6).fill(8), borderColor:'rgba(255,255,255,0.2)', backgroundColor:'rgba(255,255,255,0.02)', borderWidth:1.5, borderDash:[4,4], pointRadius:0 }
